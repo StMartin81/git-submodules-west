@@ -1,0 +1,20 @@
+manifest:
+  defaults:
+    remote: github
+
+  remotes:
+    - name: github
+      url-base: https://github.com/StMartin81
+      
+  self:
+    path: repo1
+
+  #
+  # Please add items below based on alphabetical order
+  projects:
+    - name: git-submodules-repo2
+      revision: 68931a6c6073b541ed97488607458b5e505e03b2
+      path: repo2
+    - name: git-submodules-repo3
+      revision: 96d7040f73177c5f7f1eac0dd31ac72e07c7785f
+      path: repo1/sub-folder/this-is-repo3
